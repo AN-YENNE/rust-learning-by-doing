@@ -46,9 +46,9 @@ fn main() {
     println!("Three hours in seconds is {}", THREE_HOURS_IN_SECONDS);
     // The following would be invalid:
     // const MUTABLE_CONST: i32 = 5;
-    // MUTABLE_CONST = 10; // ❌ Error: cannot change a constant
+    // MUTABLE_CONST = 10; // Error: cannot change a constant
     // Also invalid:
-    // const RUNTIME_VALUE: i32 = get_runtime_value(); // ❌ Error: must be const evaluable
+    // const RUNTIME_VALUE: i32 = get_runtime_value(); // Error: must be const evaluable
 
     // =============================
     // 🕶️ SHADOWING IN RUST
